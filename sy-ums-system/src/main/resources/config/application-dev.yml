@@ -1,7 +1,7 @@
 #配置数据源
 spring:
   datasource:
-    url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:sy_ums}?serverTimezone=Asia/Shanghai&characterEncoding=utf8&useSSL=false
+    url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:fsa_ums}?serverTimezone=Asia/Shanghai&characterEncoding=utf8&useSSL=false
     username: root
     password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -38,7 +38,6 @@ login:
     font-name:
     # 字体大小
     font-size: 25
-
 #jwt
 jwt:
   header: Authorization
@@ -56,11 +55,9 @@ jwt:
   detect: 1800000
   # 续期时间范围，默认1小时，单位毫秒
   renew: 3600000
-
 #是否允许生成代码，生产环境设置为false
 generator:
   enabled: true
-
 #是否开启 swagger-ui
 swagger:
   enabled: true

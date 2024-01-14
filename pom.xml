@@ -94,15 +94,6 @@
             <artifactId>mysql-connector-j</artifactId>
             <version>${mysql-connector-j.version}</version>
         </dependency>
-
-        <!--        &lt;!&ndash; druid数据源驱动 &ndash;&gt;-->
-        <!--        <dependency>-->
-        <!--            <groupId>com.alibaba</groupId>-->
-        <!--            <artifactId>druid-spring-boot-starter</artifactId>-->
-        <!--            <version>${druid.version}</version>-->
-        <!--        </dependency>-->
-
-        <!-- https://mvnrepository.com/artifact/net.dreamlu/mica-ip2region -->
         <dependency>
             <groupId>net.dreamlu</groupId>
             <artifactId>mica-ip2region</artifactId>
